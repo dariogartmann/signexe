@@ -1,0 +1,20 @@
+name: SignEXE
+version: 1.5
+description: Execute commands with signs, buttons and levers!
+author: D4rio
+website: http://dariogartmann.ch
+main: ch.dariogartmann.main.main
+
+commands:
+  signexe:
+    description: Displays Help
+    usage: /<command>
+    
+  setcmd:
+    description: Adds a command to a button or lever.
+    usage: /<command>
+    
+  setconsolecmd:
+    description: Adds a command to a button or lever, the console performs it.
+    usage: /<command>
+    
